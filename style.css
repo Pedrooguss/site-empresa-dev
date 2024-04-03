@@ -7,12 +7,6 @@
 
 :root{ 
     --white: #fff;
-    --dark1: #34344e;
-    --dark2: #3a415a;
-    --dark3: #566981;
-    --dark4: #89a7b1;
-    --dark5: #cbdad5;
-    --dark6: #2f2f46;
     --dark7: #000;
     --cyan1: #70e3ea;
 }
@@ -191,6 +185,10 @@ strong{
     color: var(--dark7);
 }
 
+.title:hover{
+    text-decoration: underline;
+}
+
 third-section{
     display: flex;
     flex-direction: column;
@@ -200,11 +198,18 @@ third-section{
 
 .title-somos{
     color: var(--white);
+    text-align: center;
+}
+
+.title-somos:hover{
+    text-decoration: underline;
 }
 
 .third-section  p{
     max-width: 1200px;
     color: var(--white);
+    gap: 1rem;
+    padding-top: 1rem;
 }
 
 footer{
@@ -212,6 +217,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.title-conta{
+    text-align: center;
 }
 
 footer > div{
@@ -261,8 +270,6 @@ footer > div{
     .soft-desen{
         text-align: center;
     }
-
-
 }
 
 
